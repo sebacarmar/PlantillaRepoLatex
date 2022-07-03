@@ -2,6 +2,7 @@
 *.aux
 *.log
 *.toc
+*.swp
 
 # Prerequisites
 *.d
