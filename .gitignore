@@ -1,5 +1,7 @@
 # Ignora archivos de compilación de latex
 *.aux
+*.fdb_latexmk
+*.fls
 *.log
 *.toc
 *.swp
