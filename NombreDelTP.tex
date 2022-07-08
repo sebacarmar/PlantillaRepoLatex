@@ -1,3 +1,4 @@
+\synctex=1
 \input{./Secciones/Caratula.tex}
 
 \usepackage{float}
@@ -25,14 +26,18 @@
 
 
 \begin{document}
-  \newpage
   \maketitle
+
+  \null
+  \thispagestyle{empty}
+  \pagebreak
+
+  \setcounter{page}{1}
   \tableofcontents
   \newpage
   %\listoffigures
   %\listoftables
-  %\newpage
-  
+  %\pagebreak
   
   \input{Secciones/Introduccion.tex}
   \input{Secciones/MarcoTeorico.tex}
