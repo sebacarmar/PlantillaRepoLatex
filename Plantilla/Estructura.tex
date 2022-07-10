@@ -20,8 +20,8 @@
 \newcommand{\instituto}[1]{\newcommand{\@instituto}{#1}}
 \newcommand{\carrera}[1]{\newcommand{\@carrera}{#1}}
 \newcommand{\professor}[1]{\newcommand{\@professor}{#1}}
-\newcommand{\catedraA}[1]{\newcommand{\@catedraA}{#1}}
-\newcommand{\catedraB}[1]{\newcommand{\@catedraB}{#1}}
+\newcommand{\catedraCaratula}[1]{\newcommand{\@catedraCaratula}{#1}}
+\newcommand{\catedraHeader}[1]{\newcommand{\@catedraHeader}{#1}}
 \newcommand{\curso}[1]{\newcommand{\@curso}{#1}}
 \newcommand{\legajo}[1]{\newcommand{\@legajo}{#1}}
 \newcommand{\footerauthor}[1]{\newcommand{\@footerauthor}{#1}}
@@ -42,8 +42,8 @@
     \end{minipage}
 }
 \fancyhead[R]{
-    \textbf{Cátedra:} \@catedraB\\
-    \textbf{Curso:} \@curso
+    \textbf{Curso:} \@curso\\
+    \textbf{Cátedra:} \@catedraHeader
 }
 \fancyfoot[L]{\@date}
 \fancyfoot[C]{} %eliminar antiguo numero de pagina
@@ -68,7 +68,7 @@
     \includegraphics[width=0.30\textwidth]{Imagenes/logo-utn.png} \par
     \vspace{1.5cm}
     
-    \textsc{\large \@catedraA \ (\@catedraB ) }\\[0.5cm]
+    \textsc{\large \@catedraCaratula }\\[0.5cm]
     
     {\huge\bfseries \@title}\\[0.4cm]
     \textsc{\Large \@subtitledoc}\\[0.5cm]
