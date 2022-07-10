@@ -20,8 +20,10 @@
 - Uso del \therefore y \Longrightarrow para presentar valores.
 
 
+#Tabulaciones:
+- Respetar las tabulaciones dentro de cada \section, \subsection y \subsubsection para una fácil lectura del código.
 
-# Epígrafe
+# Epígrafe:
 - Punto al final del epígrafe.
 
 # Formato del repositorio:
