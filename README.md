@@ -7,7 +7,7 @@
 # Reglas sugeridas para Figuras:
 
 - Figura siempre con F mayúscula. Lo mismo con Tabla.
-- Para referencias se usará la virgulilla  (~) como seperador. Ej: Figura~\ref{fig:Ejemplo}
+- Para referencias se usará la virgulilla  (\~) como seperador. Ej: Figura~\ref{fig:Ejemplo}
 - Para las figuras deben empezar por "fig:". Ej: \label{fig:FotoAmpli}
 
 
